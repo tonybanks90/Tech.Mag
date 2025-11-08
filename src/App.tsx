@@ -9,6 +9,7 @@ import CategoryPage from "@/pages/CategoryPage";
 import Shop from "@/pages/Shop";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import NotFound from "@/pages/not-found";
+import Analytics from "@/components/Analytics";
 
 function Router() {
   return (
@@ -28,6 +29,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
+        <Analytics />
         <Router />
       </TooltipProvider>
     </QueryClientProvider>
