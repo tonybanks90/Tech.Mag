@@ -16,7 +16,7 @@ export default function Navigation() {
   const isLoading = categoriesLoading || settingsLoading;
 
   // Get site name, fallback to default
-  const siteName = siteSettings?.siteName || 'Haven & Hearth';
+  const siteName = siteSettings?.siteName || 'Prometheus Tech';
 
   return (
     <nav className="sticky top-0 z-50 bg-background border-b border-border">

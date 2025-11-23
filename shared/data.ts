@@ -8,7 +8,7 @@ import smartLiving from '../attached_assets/Smart_living_technology_170b2cb5.png
 import decorStyle from '../attached_assets/Decor_and_style_cfec2976.png';
 import newsletterBg from '../attached_assets/banner1.png';
 
-export const SITE_NAME = "Tech Blog";
+export const SITE_NAME = "Prometheus Tech";
 
 export const CATEGORIES = [
   { id: '1', name: 'Décor & Style', slug: 'decor-style', banner: decorStyle, description: 'Elevate your space with timeless design inspiration' },
@@ -21,15 +21,15 @@ export const CATEGORIES = [
 export const HERO_SECTION = {
   image: heroBanner,
   imageAlt: 'Chic minimalist living room in neutral tones featuring a beige sofa with a chunky knit throw, wooden coffee table with candles and books, and warm natural sunlight through sheer curtains — cozy, elegant, and inviting home interior for Simply Homed.',
-  heading: 'Elevate Everyday Living! The Simply Homed Way',
-  subheading: 'For homes that feel as good as they look.'
+  heading: 'Igniting the Next Era of Technology',
+  subheading: 'Your front-row seat to the breakthroughs shaping our future.'
 };
 
 export const NEWSLETTER_SECTION = {
   backgroundImage: newsletterBg,
   imageAlt: 'Cozy neutral flat lay featuring a beige coffee mug, lit candle, stack of Simply Homed newsletters, and minimalist home décor on a soft knitted blanket — warm, elegant, and inviting lifestyle aesthetic.',
-  heading: '✨ Join Our Cozy Circle',
-  description: 'Get the latest home styling tips, organization hacks, smart living finds, and Simply Homed exclusives delivered straight to your inbox. ',
+  heading: 'Stay Plugged Into Innovation',
+  description: 'From AI breakthroughs to space tech discoveries, get powerful stories, expert tips, and tech trends delivered weekly. No noise—just the future. ',
   cta: 'Subscribe'
 };
 
@@ -302,11 +302,11 @@ export const PRODUCTS: Product[] = [
 export const FOOTER_DATA = {
   about: {
     title: 'About',
-    content: 'Simply Homed is your cozy corner on the internet for all things home, style, and smart living. We inspire beautiful, intentional spaces with a dash of fun and everyday elegance.'
+    content: 'Prometheus Tech is your gateway to the future. We explore the breakthroughs shaping tomorrow—from AI and cloud computing to cryptocurrency, cybersecurity, fintech, gaming, robotics, software innovation, and space technology. Our mission is to inform, inspire, and guide readers through the ever-evolving world of modern tech with clarity, depth, and excitement.'
   },
   contact: {
     title: 'Contact',
-    email: 'hellosimplyhomed@gmail.com',
+    email: 'helloprometheustech@gmail.com',
     socials: [
       { name: 'Instagram', url: 'https://www.instagram.com/simply.homed.co?igsh=bmlzeXF3c2dnZTA5', icon: 'instagram' },
       { name: 'Pinterest', url: 'https://pin.it/5nlkz8I4b', icon: 'pinterest' },

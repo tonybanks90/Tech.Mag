@@ -18,7 +18,7 @@ export default function Shop() {
                 Shop Our Favorites
               </h1>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                Thoughtfully curated products to elevate your home and lifestyle
+                Trusted tech recommendations, curated to deliver real value.
               </p>
             </div>
 

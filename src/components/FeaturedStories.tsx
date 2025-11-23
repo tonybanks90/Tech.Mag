@@ -17,7 +17,7 @@ export default function FeaturedStories() {
             Featured Stories
           </h2>
           <p className="text-muted-foreground text-lg">
-            Curated inspiration for your home and lifestyle
+            Curated insights and innovations shaping the tech world.
           </p>
         </div>
 
