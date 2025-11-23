@@ -1,0 +1,758 @@
+[
+  {
+    "_id": "blog-post-1",
+    "_type": "blogPost",
+    "title": "The Rise of AI in Everyday Life",
+    "slug": {
+      "_type": "slug",
+      "current": "the-rise-of-ai-in-everyday-life"
+    },
+    "excerpt": "Exploring the transformative impact of Artificial Intelligence on our daily routines, from smart homes to personalized healthcare.",
+    "coverImage": {
+      "_type": "image",
+      "alt": "Abstract representation of AI",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Decor_and_style_cfec2976.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.ai"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "AI is no longer a concept of the future; it's deeply embedded in our present. This post delves into how AI is reshaping industries and personal lives."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "AI in Everyday Life: A Deep Dive",
+    "metaDescription": "Learn how Artificial Intelligence is changing the world around us, from healthcare to entertainment.",
+    "readTime": 5,
+    "publishedAt": "2025-11-23T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-2",
+    "_type": "blogPost",
+    "title": "Getting Started with Machine Learning",
+    "slug": {
+      "_type": "slug",
+      "current": "getting-started-with-machine-learning"
+    },
+    "excerpt": "A beginner's guide to the fundamental concepts of Machine Learning and how you can start your journey in this exciting field.",
+    "coverImage": {
+      "_type": "image",
+      "alt": "Diagram of a neural network",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Decor_and_style_cfec2976.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.ai"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "Machine Learning is a subset of AI that allows systems to learn and improve from experience. This guide will walk you through the basics."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "Machine Learning for Beginners",
+    "metaDescription": "Your first steps into the world of Machine Learning. Understand the core principles and how to get started.",
+    "readTime": 8,
+    "publishedAt": "2025-11-24T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-3",
+    "_type": "blogPost",
+    "title": "The Future of Cloud Computing",
+    "slug": {
+      "_type": "slug",
+      "current": "the-future-of-cloud-computing"
+    },
+    "excerpt": "Serverless, multi-cloud, and edge computing are shaping the future. What's next for cloud technology?",
+    "coverImage": {
+      "_type": "image",
+      "alt": "Abstract cloud infrastructure",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Editor_pick_bedroom_5e7985b6.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.cloud-computing"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "The cloud is evolving at a rapid pace. We explore the trends that will define the next generation of cloud computing."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "Future Trends in Cloud Computing",
+    "metaDescription": "Discover the key trends driving the evolution of cloud computing, from serverless architectures to multi-cloud strategies.",
+    "readTime": 6,
+    "publishedAt": "2025-11-25T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-4",
+    "_type": "blogPost",
+    "title": "Choosing the Right Cloud Provider",
+    "slug": {
+      "_type": "slug",
+      "current": "choosing-the-right-cloud-provider"
+    },
+    "excerpt": "AWS, Azure, or GCP? A comprehensive comparison to help you select the best cloud provider for your needs.",
+    "coverImage": {
+      "_type": "image",
+      "alt": "Logos of AWS, Azure, and GCP",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Editor_pick_bedroom_5e7985b6.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.cloud-computing"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "The choice of a cloud provider is a critical business decision. This article breaks down the strengths and weaknesses of the big three."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "AWS vs. Azure vs. GCP: A Cloud Provider Comparison",
+    "metaDescription": "A detailed comparison of Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) to help you decide.",
+    "readTime": 10,
+    "publishedAt": "2025-11-26T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-5",
+    "_type": "blogPost",
+    "title": "Bitcoin and the Rise of DeFi",
+    "slug": {
+      "_type": "slug",
+      "current": "bitcoin-and-the-rise-of-defi"
+    },
+    "excerpt": "Decentralized Finance (DeFi) is challenging traditional financial systems. What role does Bitcoin play in this revolution?",
+    "coverImage": {
+      "_type": "image",
+      "alt": "Bitcoin and other cryptocurrency coins",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Editor_pick_workspace_c62f0045.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.cryptocurrency"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "DeFi is rebuilding finance from the ground up, and Bitcoin's role is more significant than you might think. Let's explore the connection."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "The Role of Bitcoin in Decentralized Finance (DeFi)",
+    "metaDescription": "Understand the relationship between Bitcoin and the booming world of Decentralized Finance (DeFi).",
+    "readTime": 7,
+    "publishedAt": "2025-11-27T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-6",
+    "_type": "blogPost",
+    "title": "Understanding NFTs",
+    "slug": {
+      "_type": "slug",
+      "current": "understanding-nfts"
+    },
+    "excerpt": "Non-Fungible Tokens (NFTs) have taken the world by storm. But what are they, and how do they work?",
+    "coverImage": {
+      "_type": "image",
+      "alt": "Digital art collage representing NFTs",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Editor_pick_workspace_c62f0045.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.cryptocurrency"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "This guide demystifies NFTs, explaining the technology behind them and why they've become so popular."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "What Are NFTs? A Beginner's Guide",
+    "metaDescription": "A simple explanation of Non-Fungible Tokens (NFTs), how they work, and their impact on digital ownership.",
+    "readTime": 4,
+    "publishedAt": "2025-11-28T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-7",
+    "_type": "blogPost",
+    "title": "Protecting Yourself from Phishing Attacks",
+    "slug": {
+      "_type": "slug",
+      "current": "protecting-yourself-from-phishing-attacks"
+    },
+    "excerpt": "Phishing remains one of the biggest threats to cybersecurity. Learn how to spot and avoid these malicious attacks.",
+    "coverImage": {
+      "_type": "image",
+      "alt": "A person in a hoodie at a computer",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Featured_kitchen_story_18970394.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.cybersecurity"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "In this article, we share practical tips to identify and protect yourself from phishing scams that target your personal information."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "How to Avoid Phishing Scams",
+    "metaDescription": "Learn the tell-tale signs of a phishing attack and simple steps you can take to keep your data safe.",
+    "readTime": 5,
+    "publishedAt": "2025-11-29T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-8",
+    "_type": "blogPost",
+    "title": "The Importance of Strong Passwords",
+    "slug": {
+      "_type": "slug",
+      "current": "the-importance-of-strong-passwords"
+    },
+    "excerpt": "Your password is your first line of defense. Discover why strong, unique passwords are more important than ever.",
+    "coverImage": {
+      "_type": "image",
+      "alt": "A digital lock and key",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Featured_kitchen_story_18970394.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.cybersecurity"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "We dive into the dos and don'ts of password creation and management to help you secure your digital life."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "Why Strong Passwords Matter",
+    "metaDescription": "A guide to creating and managing strong, unique passwords to protect your online accounts from cyber threats.",
+    "readTime": 3,
+    "publishedAt": "2025-11-30T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-9",
+    "_type": "blogPost",
+    "title": "How Fintech is Changing Banking",
+    "slug": {
+      "_type": "slug",
+      "current": "how-fintech-is-changing-banking"
+    },
+    "excerpt": "From mobile payments to robo-advisors, Fintech innovations are revolutionizing the banking industry.",
+    "coverImage": {
+      "_type": "image",
+      "alt": "A person using a mobile banking app",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Hero_banner_living_room_8773f520.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.fintech"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "This post explores the key ways financial technology is disrupting traditional banking services and what it means for consumers."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "The Impact of Fintech on Traditional Banking",
+    "metaDescription": "Explore how Fintech startups are challenging traditional banks with innovative products and services.",
+    "readTime": 6,
+    "publishedAt": "2025-12-01T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-10",
+    "_type": "blogPost",
+    "title": "The Rise of Neobanks",
+    "slug": {
+      "_type": "slug",
+      "current": "the-rise-of-neobanks"
+    },
+    "excerpt": "What are neobanks, and why are so many people switching to these digital-only financial institutions?",
+    "coverImage": {
+      "_type": "image",
+      "alt": "A collection of neobank debit cards",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Hero_banner_living_room_8773f520.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.fintech"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "Neobanks are here to stay. We look at the advantages they offer over traditional banks and what the future holds for digital banking."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "What are Neobanks? A Guide to Digital Banking",
+    "metaDescription": "An overview of neobanks, their benefits, and how they are changing the financial landscape.",
+    "readTime": 5,
+    "publishedAt": "2025-12-02T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-11",
+    "_type": "blogPost",
+    "title": "The Evolution of Video Game Graphics",
+    "slug": {
+      "_type": "slug",
+      "current": "the-evolution-of-video-game-graphics"
+    },
+    "excerpt": "From pixels to photorealism, a look back at the incredible journey of video game graphics over the decades.",
+    "coverImage": {
+      "_type": "image",
+      "alt": "A split image showing a retro game and a modern game",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Newsletter_background_image_0c5dd776.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.gaming"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "Join us on a nostalgic trip through the history of video game graphics and see how far we've come."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "A History of Video Game Graphics",
+    "metaDescription": "From 8-bit sprites to ray tracing, we explore the technological leaps that have defined video game graphics.",
+    "readTime": 9,
+    "publishedAt": "2025-12-03T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-12",
+    "_type": "blogPost",
+    "title": "The Rise of Esports",
+    "slug": {
+      "_type": "slug",
+      "current": "the-rise-of-esports"
+    },
+    "excerpt": "Esports is now a global phenomenon. What's behind the explosive growth of competitive gaming?",
+    "coverImage": {
+      "_type": "image",
+      "alt": "A large stadium filled with people watching an esports tournament",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Newsletter_background_image_0c5dd776.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.gaming"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "We look at the factors that have turned esports into a billion-dollar industry and what the future holds for competitive gaming."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "Esports: From Niche Hobby to Mainstream Spectacle",
+    "metaDescription": "An analysis of the rapid growth of esports and its impact on the entertainment industry.",
+    "readTime": 7,
+    "publishedAt": "2025-12-04T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-13",
+    "_type": "blogPost",
+    "title": "The Power of Open Source Software",
+    "slug": {
+      "_type": "slug",
+      "current": "the-power-of-open-source-software"
+    },
+    "excerpt": "From Linux to React, open source software powers the digital world. What makes the open source model so successful?",
+    "coverImage": {
+      "_type": "image",
+      "alt": "A collage of open source project logos",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Organization_blog_post_88be11d8.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.software"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "This article explores the philosophy and benefits of open source software and its impact on technology and innovation."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "Why Open Source Software is So Important",
+    "metaDescription": "A look into the collaborative world of open source software and its role in driving technological progress.",
+    "readTime": 6,
+    "publishedAt": "2025-12-05T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-14",
+    "_type": "blogPost",
+    "title": "Choosing a JavaScript Framework",
+    "slug": {
+      "_type": "slug",
+      "current": "choosing-a-javascript-framework"
+    },
+    "excerpt": "React, Angular, or Vue? A guide to help you choose the right JavaScript framework for your next project.",
+    "coverImage": {
+      "_type": "image",
+      "alt": "Logos of React, Angular, and Vue",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Organization_blog_post_88be11d8.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.software"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "We compare the most popular JavaScript frameworks to help you make an informed decision for your development needs."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "React vs. Angular vs. Vue: Which to Choose?",
+    "metaDescription": "A comparison of the top three JavaScript frameworks to help you decide which is best for your web development projects.",
+    "readTime": 12,
+    "publishedAt": "2025-12-06T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-15",
+    "_type": "blogPost",
+    "title": "The New Era of Space Exploration",
+    "slug": {
+      "_type": "slug",
+      "current": "the-new-era-of-space-exploration"
+    },
+    "excerpt": "With private companies like SpaceX and Blue Origin leading the charge, we are entering a new golden age of space exploration.",
+    "coverImage": {
+      "_type": "image",
+      "alt": "A rocket launching into space",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Smart_living_technology_170b2cb5.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.space-tech"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "This article looks at the key players and technologies driving the commercialization of space and the future of space travel."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "The Commercialization of Space: What's Next?",
+    "metaDescription": "An overview of the new space race, led by private companies, and what it means for the future of humanity.",
+    "readTime": 8,
+    "publishedAt": "2025-12-07T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-16",
+    "_type": "blogPost",
+    "title": "Living on Mars: The Challenges",
+    "slug": {
+      "_type": "slug",
+      "current": "living-on-mars-the-challenges"
+    },
+    "excerpt": "What will it take to establish a sustainable human colony on Mars? We explore the immense challenges.",
+    "coverImage": {
+      "_type": "image",
+      "alt": "A futuristic depiction of a human colony on Mars",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Smart_living_technology_170b2cb5.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.space-tech"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "From radiation to resources, we examine the scientific and engineering hurdles that must be overcome to make life on Mars a reality."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "The Hurdles of Colonizing Mars",
+    "metaDescription": "A look at the major obstacles to establishing a permanent human presence on the Red Planet.",
+    "readTime": 10,
+    "publishedAt": "2025-12-08T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-17",
+    "_type": "blogPost",
+    "title": "The Impact of Robotics on Manufacturing",
+    "slug": {
+      "_type": "slug",
+      "current": "the-impact-of-robotics-on-manufacturing"
+    },
+    "excerpt": "Automation and robotics are transforming the manufacturing industry. We look at the benefits and challenges of this transition.",
+    "coverImage": {
+      "_type": "image",
+      "alt": "A robotic arm working on an assembly line",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Sustainable_living_blog_eec8d8b1.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.robotics"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "This article explores how robotics is increasing efficiency and productivity in factories around the world."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "Robotics and the Future of Manufacturing",
+    "metaDescription": "An analysis of the role of robotics and automation in the modern manufacturing landscape.",
+    "readTime": 6,
+    "publishedAt": "2025-12-09T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  },
+  {
+    "_id": "blog-post-18",
+    "_type": "blogPost",
+    "title": "The Ethics of AI and Robotics",
+    "slug": {
+      "_type": "slug",
+      "current": "the-ethics-of-ai-and-robotics"
+    },
+    "excerpt": "As AI and robotics become more advanced, we must address the complex ethical questions they raise.",
+    "coverImage": {
+      "_type": "image",
+      "alt": "A humanoid robot looking at its reflection in a mirror",
+      "asset": {
+        "_type": "reference",
+        "_ref": "image-Sustainable_living_blog_eec8d8b1.png"
+      }
+    },
+    "category": {
+      "_type": "reference",
+      "_ref": "category.robotics"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "From job displacement to autonomous weapons, we discuss the ethical dilemmas posed by the rise of intelligent machines."
+          }
+        ]
+      }
+    ],
+    "metaTitle": "Ethical Considerations in AI and Robotics",
+    "metaDescription": "A discussion of the pressing ethical challenges that society faces in the age of AI and robotics.",
+    "readTime": 7,
+    "publishedAt": "2025-12-10T10:00:00Z",
+    "reactions": {
+      "likes": 0,
+      "bookmarks": 0
+    }
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "_id": "category.ai",
+    "_type": "category",
+    "name": "AI",
+    "slug": {
+      "_type": "slug",
+      "current": "ai"
+    },
+    "banner": {
+      "_type": "image",
+      "alt": "Banner image for AI",
+      "asset": {
+        "_ref": "image-placeholder-ai",
+        "_type": "reference"
+      }
+    },
+    "description": "This is the category for AI."
+  },
+  {
+    "_id": "category.cloud-computing",
+    "_type": "category",
+    "name": "Cloud Computing",
+    "slug": {
+      "_type": "slug",
+      "current": "cloud-computing"
+    },
+    "banner": {
+      "_type": "image",
+      "alt": "Banner image for Cloud Computing",
+      "asset": {
+        "_ref": "image-placeholder-cloud-computing",
+        "_type": "reference"
+      }
+    },
+    "description": "This is the category for Cloud Computing."
+  },
+  {
+    "_id": "category.cryptocurrency",
+    "_type": "category",
+    "name": "Cryptocurrency",
+    "slug": {
+      "_type": "slug",
+      "current": "cryptocurrency"
+    },
+    "banner": {
+      "_type": "image",
+      "alt": "Banner image for Cryptocurrency",
+      "asset": {
+        "_ref": "image-placeholder-cryptocurrency",
+        "_type": "reference"
+      }
+    },
+    "description": "This is the category for Cryptocurrency."
+  },
+  {
+    "_id": "category.cybersecurity",
+    "_type": "category",
+    "name": "Cybersecurity",
+    "slug": {
+      "_type": "slug",
+      "current": "cybersecurity"
+    },
+    "banner": {
+      "_type": "image",
+      "alt": "Banner image for Cybersecurity",
+      "asset": {
+        "_ref": "image-placeholder-cybersecurity",
+        "_type": "reference"
+      }
+    },
+    "description": "This is the category for Cybersecurity."
+  },
+  {
+    "_id": "category.fintech",
+    "_type": "category",
+    "name": "Fintech",
+    "slug": {
+      "_type": "slug",
+      "current": "fintech"
+    },
+    "banner": {
+      "_type": "image",
+      "alt": "Banner image for Fintech",
+      "asset": {
+        "_ref": "image-placeholder-fintech",
+        "_type": "reference"
+      }
+    },
+    "description": "This is the category for Fintech."
+  },
+  {
+    "_id": "category.gaming",
+    "_type": "category",
+    "name": "Gaming",
+    "slug": {
+      "_type": "slug",
+      "current": "gaming"
+    },
+    "banner": {
+      "_type": "image",
+      "alt": "Banner image for Gaming",
+      "asset": {
+        "_ref": "image-placeholder-gaming",
+        "_type": "reference"
+      }
+    },
+    "description": "This is the category for Gaming."
+  },
+  {
+    "_id": "category.software",
+    "_type": "category",
+    "name": "Software",
+    "slug": {
+      "_type": "slug",
+      "current": "software"
+    },
+    "banner": {
+      "_type": "image",
+      "alt": "Banner image for Software",
+      "asset": {
+        "_ref": "image-placeholder-software",
+        "_type": "reference"
+      }
+    },
+    "description": "This is the category for Software."
+  },
+  {
+    "_id": "category.space-tech",
+    "_type": "category",
+    "name": "Space Tech",
+    "slug": {
+      "_type": "slug",
+      "current": "space-tech"
+    },
+    "banner": {
+      "_type": "image",
+      "alt": "Banner image for Space Tech",
+      "asset": {
+        "_ref": "image-placeholder-space-tech",
+        "_type": "reference"
+      }
+    },
+    "description": "This is the category for Space Tech."
+  },
+  {
+    "_id": "category.robotics",
+    "_type": "category",
+    "name": "Robotics",
+    "slug": {
+      "_type": "slug",
+      "current": "robotics"
+    },
+    "banner": {
+      "_type": "image",
+      "alt": "Banner image for Robotics",
+      "asset": {
+        "_ref": "image-placeholder-robotics",
+        "_type": "reference"
+      }
+    },
+    "description": "This is the category for Robotics."
+  }
+]
