@@ -1,8 +1,10 @@
+import { Fragment } from 'react';
 import { useRoute } from 'wouter';
 import Navigation from '@/components/Navigation';
 import CategoryBanner from '@/components/CategoryBanner';
 import BlogCard from '@/components/BlogCard';
 import Footer from '@/components/Footer';
+import AdUnit from '@/components/AdUnit';
 import { useCategoryBySlug, useBlogPostsByCategory } from '@/lib/hooks';
 import NotFound from './not-found';
 
@@ -10,7 +12,7 @@ export default function CategoryPage() {
   const [, params] = useRoute('/category/:slug');
   const { data: category, isLoading: categoryLoading } = useCategoryBySlug(params?.slug || '');
   const { data: categoryPosts = [], isLoading: postsLoading } = useBlogPostsByCategory(params?.slug || '');
-  
+
   if (categoryLoading || postsLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -26,6 +28,11 @@ export default function CategoryPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
+
+      <div className="max-w-7xl mx-auto w-full px-6 lg:px-8 mt-4">
+        <AdUnit format="horizontal" testMode={true} />
+      </div>
+
       <main className="flex-1">
         <CategoryBanner
           image={category.banner || ''}
@@ -33,13 +40,21 @@ export default function CategoryPage() {
           title={category.name}
           description={category.description}
         />
-        
+
         <section className="py-16 bg-background">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             {categoryPosts.length > 0 ? (
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {categoryPosts.map((post) => (
-                  <BlogCard key={post._id} post={post} />
+                {categoryPosts.map((post, index) => (
+                  <Fragment key={post._id}>
+                    <BlogCard post={post} />
+                    {/* Inject Ad after every 6th post (index 5, 11, etc.) */}
+                    {(index + 1) % 6 === 0 && index !== categoryPosts.length - 1 && (
+                      <div className="md:col-span-2 lg:col-span-3">
+                        <AdUnit format="auto" testMode={true} label="Sponsored" />
+                      </div>
+                    )}
+                  </Fragment>
                 ))}
               </div>
             ) : (
