@@ -10,6 +10,9 @@ import Shop from "@/pages/Shop";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import NotFound from "@/pages/not-found";
 import Analytics from "@/components/Analytics";
+import ScrollToTop from "@/components/ScrollToTop";
+
+import TermsPage from "@/pages/TermsPage";
 
 function Router() {
   return (
@@ -19,6 +22,7 @@ function Router() {
       <Route path="/category/:slug" component={CategoryPage} />
       <Route path="/shop" component={Shop} />
       <Route path="/privacy-policy" component={PrivacyPolicy} />
+      <Route path="/terms" component={TermsPage} />
       <Route component={NotFound} />
     </Switch>
   );
@@ -30,6 +34,7 @@ function App() {
       <TooltipProvider>
         <Toaster />
         <Analytics />
+        <ScrollToTop />
         <Router />
       </TooltipProvider>
     </QueryClientProvider>
