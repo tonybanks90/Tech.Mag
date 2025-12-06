@@ -7,6 +7,7 @@ import { PortableText } from '@/components/PortableText';
 import Sidebar from '@/components/Sidebar';
 import WideBlogCard from '@/components/WideBlogCard';
 import type { BlogPost, BlogPostPreview } from '@/lib/types';
+import SEO from '@/components/SEO';
 
 interface ArticleContentProps {
     post: BlogPost;
@@ -38,6 +39,12 @@ export default function ArticleContent({ post, allPosts }: ArticleContentProps) 
 
     return (
         <div className="w-full max-w-[1440px] mx-auto px-4 md:px-6 lg:px-8 py-16 border-b border-border/40">
+            <SEO
+                title={post.title}
+                description={post.excerpt}
+                image={post.coverImage}
+                type="article"
+            />
 
             {/* Header */}
             <header className="mb-10 max-w-5xl">

@@ -5,6 +5,7 @@ import CategoryBanner from '@/components/CategoryBanner';
 import BlogCard from '@/components/BlogCard';
 import Footer from '@/components/Footer';
 import AdUnit from '@/components/AdUnit';
+import SEO from '@/components/SEO';
 import { useCategoryBySlug, useBlogPostsByCategory } from '@/lib/hooks';
 import NotFound from './not-found';
 
@@ -27,6 +28,10 @@ export default function CategoryPage() {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title={category.name}
+        description={category.description || `Read the latest articles in ${category.name}`}
+      />
       <Navigation />
 
       <div className="max-w-7xl mx-auto w-full px-6 lg:px-8 mt-4">

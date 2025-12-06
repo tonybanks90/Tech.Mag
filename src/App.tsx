@@ -1,3 +1,4 @@
+import { HelmetProvider } from 'react-helmet-async';
 import { Switch, Route } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
@@ -11,7 +12,6 @@ import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import NotFound from "@/pages/not-found";
 import Analytics from "@/components/Analytics";
 import ScrollToTop from "@/components/ScrollToTop";
-
 import TermsPage from "@/pages/TermsPage";
 
 function Router() {
@@ -30,14 +30,16 @@ function Router() {
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <Analytics />
-        <ScrollToTop />
-        <Router />
-      </TooltipProvider>
-    </QueryClientProvider>
+    <HelmetProvider>
+      <QueryClientProvider client={queryClient}>
+        <TooltipProvider>
+          <Toaster />
+          <Analytics />
+          <ScrollToTop />
+          <Router />
+        </TooltipProvider>
+      </QueryClientProvider>
+    </HelmetProvider>
   );
 }
 
