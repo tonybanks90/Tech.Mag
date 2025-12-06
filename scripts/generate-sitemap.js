@@ -25,7 +25,7 @@ async function generateSitemap() {
 
     try {
         // Fetch all posts and categories
-        const postsQuery = `*[_type == "post"]{ "slug": slug.current, publishedAt, _updatedAt }`;
+        const postsQuery = `*[_type == "blogPost"]{ "slug": slug.current, publishedAt, _updatedAt }`;
         const categoriesQuery = `*[_type == "category"]{ "slug": slug.current }`;
 
         const [posts, categories] = await Promise.all([
