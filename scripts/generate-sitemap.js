@@ -10,8 +10,8 @@ const __dirname = path.dirname(__filename);
 const PROJECT_ID = '6fuj4etd';
 const DATASET = 'production';
 const API_VERSION = '2024-03-12';
-// TODO: Replace with actual production URL or make it configurable
-const SITE_URL = 'https://tech-mag.com';
+// Production URL provided by user
+const SITE_URL = 'https://prometheustech.vercel.app';
 
 const client = createClient({
     projectId: PROJECT_ID,

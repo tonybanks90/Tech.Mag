@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Static Pages -->
   <url>
-    <loc>https://tech-mag.com/</loc>
+    <loc>https://prometheustech.vercel.app/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://tech-mag.com/shop</loc>
+    <loc>https://prometheustech.vercel.app/shop</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tech-mag.com/privacy-policy</loc>
+    <loc>https://prometheustech.vercel.app/privacy-policy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://tech-mag.com/terms</loc>
+    <loc>https://prometheustech.vercel.app/terms</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -25,47 +25,47 @@
   <!-- Categories -->
   
   <url>
-    <loc>https://tech-mag.com/category/space-tech</loc>
+    <loc>https://prometheustech.vercel.app/category/space-tech</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tech-mag.com/category/cloud-computing</loc>
+    <loc>https://prometheustech.vercel.app/category/cloud-computing</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tech-mag.com/category/gaming</loc>
+    <loc>https://prometheustech.vercel.app/category/gaming</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tech-mag.com/category/fintech</loc>
+    <loc>https://prometheustech.vercel.app/category/fintech</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tech-mag.com/category/robotics</loc>
+    <loc>https://prometheustech.vercel.app/category/robotics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tech-mag.com/category/software</loc>
+    <loc>https://prometheustech.vercel.app/category/software</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tech-mag.com/category/cybersecurity</loc>
+    <loc>https://prometheustech.vercel.app/category/cybersecurity</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tech-mag.com/category/ai</loc>
+    <loc>https://prometheustech.vercel.app/category/ai</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tech-mag.com/category/crypto</loc>
+    <loc>https://prometheustech.vercel.app/category/crypto</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
