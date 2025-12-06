@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { PortableText } from '@/components/PortableText';
 import Sidebar from '@/components/Sidebar';
-import WideBlogCard from '@/components/WideBlogCard';
+import BlogCard from '@/components/BlogCard';
 import type { BlogPost, BlogPostPreview } from '@/lib/types';
 import SEO from '@/components/SEO';
 
@@ -48,7 +48,7 @@ export default function ArticleContent({ post, allPosts }: ArticleContentProps) 
 
             {/* Header */}
             <header className="mb-10 max-w-5xl">
-                <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 text-foreground tracking-tight text-left">
+                <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-4 text-foreground tracking-tight text-left">
                     {post.title}
                 </h1>
 
@@ -188,8 +188,8 @@ export default function ArticleContent({ post, allPosts }: ArticleContentProps) 
 function CategorySection({ categoryName, slug, posts }: { categoryName: string, slug: string, posts: any[] }) {
     if (posts.length === 0) return null;
 
-    // Display top 4 posts from category
-    const displayPosts = posts.slice(0, 4);
+    // Display top 3 posts from category
+    const displayPosts = posts.slice(0, 3);
 
     return (
         <section className="border-t-4 border-primary/20 pt-8 animate-in slide-in-from-bottom-10 duration-700 fade-in-20">
@@ -208,10 +208,10 @@ function CategorySection({ categoryName, slug, posts }: { categoryName: string, 
                 </Link>
             </div>
 
-            {/* Wide Rectangular Cards */}
-            <div className="grid grid-cols-1 gap-6">
+            {/* Grid 3 cols */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {displayPosts.map(post => (
-                    <WideBlogCard key={post._id} post={post} />
+                    <BlogCard key={post._id} post={post} />
                 ))}
             </div>
         </section>
